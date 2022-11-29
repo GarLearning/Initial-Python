@@ -1,0 +1,11 @@
+nome = str(input('digite seu nome: ')).strip()
+print('{} com todas as letras maiusculas {}'.format(nome, nome.upper()))
+print('{} com todas as letras minusculas {}'.format(nome, nome.lower()))
+#print('{} tem {} letras '.format(nome, nome.replace(' ', '').__len__()))
+print('o {}  tem {} letras'.format(nome, len(nome) - nome.count(' ')))
+#fn = nome.split()
+#fm = fn[0]
+#print(len(fm))
+####print('seu primeiro nome tem {} letras'.format(nome.find(' '))
+separa = nome.split()
+print('segundo modo: seu primeiro nome é {} e tem {} letras'.format(separa[0], len(separa[0])))
